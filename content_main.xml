@@ -11,13 +11,13 @@
 
     <TextView
         android:layout_width="236dp"
-        android:layout_height="40dp"
+        android:layout_height="38dp"
         android:text="Are you over 21 years old?"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
-        app:layout_constraintHorizontal_bias="0.824" />
+        app:layout_constraintVertical_bias="0.412" />
 
 </android.support.constraint.ConstraintLayout>
