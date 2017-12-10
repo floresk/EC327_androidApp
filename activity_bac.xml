@@ -8,12 +8,33 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="109dp"
-        android:layout_height="51dp"
+        android:layout_width="131dp"
+        android:layout_height="65dp"
         android:layout_marginStart="144dp"
         android:layout_marginTop="196dp"
-        android:text="BAC"
+        android:text="BAC Level:"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/BAC"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="60dp"
+        android:text="Restart"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BAC" />
+
 </android.support.constraint.ConstraintLayout>
