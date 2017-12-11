@@ -66,7 +66,7 @@ public class weightActivity extends AppCompatActivity implements AdapterView.OnI
             }
         });
 
-            }
+    }
 
 
 

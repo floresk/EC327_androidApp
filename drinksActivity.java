@@ -123,7 +123,6 @@ public class drinksActivity extends AppCompatActivity implements AdapterView.OnI
         //myIntent.putExtra("key", value); //Optional parameters
         startActivity(myIntent);
     }
-
     public void continue_on(View view) {
         Intent myIntent = new Intent(drinksActivity.this, timeActivity.class);
         //myIntent.putExtra("key", value); //Optional parameters

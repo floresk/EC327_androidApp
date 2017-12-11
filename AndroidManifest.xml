@@ -6,13 +6,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/theme_bac">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +22,7 @@
         <activity
             android:name=".yesActivity"
             android:label="@string/title_activity_yes"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/theme_bac3" />
         <activity
             android:name=".noActivity"
             android:label="@string/title_activity_no"
@@ -30,16 +30,25 @@
         <activity
             android:name=".weightActivity"
             android:label="@string/title_activity_weight"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/theme_bac3" />
         <activity
             android:name=".drinksActivity"
             android:label="@string/title_activity_drinks"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/theme_bac3" />
         <activity
             android:name=".timeActivity"
             android:label="@string/title_activity_time"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".bacActivity"></activity>
+            android:theme="@style/theme_bac2" />
+        <activity
+            android:name=".bacActivity"
+            android:label="BAC Trak"
+            android:theme="@style/theme_bac2" />
+        <activity
+            android:name=".appInfoActivity"
+            android:label="BAC Trak"
+            android:theme="@style/theme_bac2"/>
+
+
     </application>
 
 </manifest>

@@ -14,13 +14,14 @@
 
     </android.support.design.widget.AppBarLayout>
 
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|left"
         android:text="Yes, I am"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         android:onClick= "showYes"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="center_vertical|center_horizontal" />
@@ -36,6 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|right"
         android:text="Not Yet"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         android:onClick="showNo"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="center_vertical|center_horizontal" />
@@ -46,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center_horizontal"
         android:text="More Information about the App"
+        android:onClick="appInfo"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|center_horizontal" />
 

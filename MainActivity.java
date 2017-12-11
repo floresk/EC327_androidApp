@@ -67,5 +67,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
+    public void appInfo(View view) {
+        Intent myIntent = new Intent(MainActivity.this, appInfoActivity.class);
+        //myIntent.putExtra("key", value); //Optional parameters
+        startActivity(myIntent);
+    }
 
 }

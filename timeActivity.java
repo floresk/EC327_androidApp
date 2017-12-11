@@ -71,16 +71,10 @@ public class timeActivity extends AppCompatActivity  implements AdapterView.OnIt
     }
 
 
-    public void linkTest(View view) {
-
-        Intent i = new Intent(Intent.ACTION_DIAL);
-        i.setData(Uri.parse("tel:6173534877"));
-        startActivity(i);
-    }
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-       SelectedTime = adapterView.getItemAtPosition(i).toString();
+        SelectedTime = adapterView.getItemAtPosition(i).toString();
 
     }
 
@@ -89,6 +83,7 @@ public class timeActivity extends AppCompatActivity  implements AdapterView.OnIt
 
     }
 }
+
 
 
 

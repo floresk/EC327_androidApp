@@ -26,8 +26,8 @@ public class yesActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        MaleButton = (Button)findViewById(R.id.button3);
-        FemaleButton = (Button)findViewById(R.id.button5);
+        MaleButton = (Button) findViewById(R.id.button3);
+        FemaleButton = (Button) findViewById(R.id.button5);
 
         MaleButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,15 +48,13 @@ public class yesActivity extends AppCompatActivity {
                 }
 
 
-
                 try {
                     FileOutputStream fos = openFileOutput("Gender", Context.MODE_PRIVATE);
                     fos.write((String.valueOf(.68)).getBytes());
                     fos.close();
-                } catch(FileNotFoundException e){
+                } catch (FileNotFoundException e) {
                     e.printStackTrace();
-                } catch (IOException e)
-                {
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
@@ -84,27 +82,12 @@ public class yesActivity extends AppCompatActivity {
                     FileOutputStream fos = openFileOutput("Gender", Context.MODE_PRIVATE);
                     fos.write((String.valueOf(.55)).getBytes());
                     fos.close();
-                } catch(FileNotFoundException e){
+                } catch (FileNotFoundException e) {
                     e.printStackTrace();
-                } catch (IOException e)
-                {
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
         });
-            }
-
-
-/*
-    public void F(View view) {
-        Intent myIntent = new Intent(yesActivity.this, weightActivity.class);
-        //myIntent.putExtra("key", value); //Optional parameters
-        startActivity(myIntent);
     }
-
-    public void M(View view){
-        Intent myIntent = new Intent(yesActivity.this, weightActivity.class);
-        //myIntent.putExtra("key", value); //Optional parameters
-        startActivity(myIntent);
-    }*/
 }

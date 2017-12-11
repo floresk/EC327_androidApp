@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">BAC Trak</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_yes">BAC Trak</string>
+    <string name="title_activity_no">BAC Trak</string>
+    <string name="title_activity_weight">BAC Trak</string>
+    <string-array name="country_arrays">
+        <item>lbs</item>
+        <item>Kg</item>
+    </string-array>
+    <string name="title_activity_drinks">BAC Trak</string>
+    <string name="title_activity_time">BAC Trak</string>
+    <string name="List">Choose something</string>
+    <string name= "appInfo">"   Use BACTrak only to get an estimation of your blood alcohol levels. Many other factors like metabolism, body fat percentage and medication can affect the rate of absorption by your body, and are not considered in BACTrak’s calculation formula.
+Blood alcohol content (BAC) or blood alcohol level is the concentration of alcohol in the bloodstream. It is usually measured as mass per volume. For example, a BAC of 0.04% means 0.04 grams of alcohol per 100 grams of individual's blood.
+
+        Every U.S. state has a legal BAC limit of about 0.08%. Most states also have lower legal BAC limits for young and inexperienced drivers, professional drivers and commercial drivers. Drunk driving can lead to imprisonment, large fines, lengthy driver’s license suspension and/or revocation, house arrest, community service, DUI schools, alcohol treatment programs, vehicle forfeiture and ignition interlock restrictions.
+
+        Please note that there is no BAC calculator that is 100% accurate, because of the number of factors that come into play regarding the consumption and reduction rates of different people. These factors usually include sex, differing metabolism rates, various health issues and the combination of medications that might be taken, drinking frequency, amount of food in the stomach and small intestine and when it was eaten, elapsed time, and others. BACTrak gets a rough estimation of the BAC level based on the inputs given by the user."
+</string>
+    <string-array name="BOOZE">
+        <item></item>
+        <item>Airline miniature bottle</item>
+        <item>Ale (pint)</item>
+        <item>Beer (12 oz)</item>
+        <item>Beer (16 oz)</item>
+        <item>Beer - Light (12 oz)</item>
+        <item>Beer - Light (16 oz)</item>
+        <item>Beer (reduced alcohol)</item>
+        <item>Brandy (snifter)</item>
+        <item>Dry martini</item>
+        <item>Gin (1.5 oz)</item>
+        <item>Highball</item>
+        <item>Malt Liquor (12 oz)</item>
+        <item>Manhattan</item>
+        <item>Porter (pint)</item>
+        <item>Rum (1.5 oz)</item>
+        <item>Sake (1.5 oz)</item>
+        <item>Stout (pint)</item>
+        <item>Tequila (1.5 oz)</item>
+        <item>Vodka (1.5 oz)</item>
+        <item>Whiskey (1.5 oz)</item>
+        <item>Wine (half a large glass)</item>
+
+    </string-array>
+
+    <string-array name="Hours">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+</resources>
